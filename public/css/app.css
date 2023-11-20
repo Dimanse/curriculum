@@ -526,6 +526,10 @@ video {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -571,6 +575,18 @@ video {
 .h-40 {
   height: 10rem;
 }
+.h-2\/4 {
+  height: 50%;
+}
+.h-96 {
+  height: 24rem;
+}
+.h-72 {
+  height: 18rem;
+}
+.h-80 {
+  height: 20rem;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -600,6 +616,9 @@ video {
 }
 .w-3\/4 {
   width: 75%;
+}
+.w-1\/4 {
+  width: 25%;
 }
 .rotate-3 {
   --tw-rotate: 3deg;
