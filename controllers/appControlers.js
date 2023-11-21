@@ -2,7 +2,8 @@
 
 const inicio = (req, res) => {
     res.render('inicio', {
-        pagina: 'Inicio'
+        pagina: 'Inicio',
+        titulo: 'Linea Cronológica'
     })
 }
 
@@ -38,6 +39,12 @@ const galeriaReferencias = (req, res) => {
     })
 }
 
+const lineaCronologica = (req, res) => {
+    res.render('cronologia', {
+        pagina: 'Linea Cronológica'
+    })
+}
+
 export {
     inicio,
     experienciaLaboral,
@@ -45,4 +52,5 @@ export {
     imprimirPdf,
     galeriaCertificados,
     galeriaReferencias,
+    lineaCronologica,
 }
