@@ -1,5 +1,7 @@
 import express from 'express';
-import {inicio, experienciaLaboral, formacionAcademica} from '../controllers/appControlers.js'
+
+
+import {inicio, experienciaLaboral, formacionAcademica, imprimirPdf} from '../controllers/appControlers.js'
 
 const router = express.Router();
 
@@ -7,6 +9,8 @@ const router = express.Router();
 router.get('/', inicio);
 router.get('/laboral', experienciaLaboral);
 router.get('/estudio', formacionAcademica);
+router.get('/pdf', 
+    imprimirPdf);
 
 
 export default router;

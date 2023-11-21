@@ -1,3 +1,5 @@
+
+
 const inicio = (req, res) => {
     res.render('inicio', {
         pagina: 'Inicio'
@@ -12,12 +14,25 @@ const experienciaLaboral = (req,  res) => {
 
 const formacionAcademica = (req,  res) => {
     res.render('estudio', {
-        pagina: 'Experiencia Laboral'
+        pagina: 'Experiencia Académica'
     } )
+}
+
+const imprimirPdf = (req,  res) => {
+    
+    // const pdf = req._parsedOriginalUrl.href;
+   
+
+    res.render('pdf', {
+      pagina: 'PDF',
+      
+    } )
+
 }
 
 export {
     inicio,
     experienciaLaboral,
     formacionAcademica,
+    imprimirPdf,
 }
