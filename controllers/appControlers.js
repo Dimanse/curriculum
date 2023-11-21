@@ -19,10 +19,6 @@ const formacionAcademica = (req,  res) => {
 }
 
 const imprimirPdf = (req,  res) => {
-    
-    // const pdf = req._parsedOriginalUrl.href;
-   
-
     res.render('pdf', {
       pagina: 'PDF',
       
@@ -30,9 +26,23 @@ const imprimirPdf = (req,  res) => {
 
 }
 
+const galeriaCertificados = (req, res) => {
+    res.render('certificados', {
+        pagina: 'Certificados Académicos',
+    })
+}
+
+const galeriaReferencias = (req, res) => {
+    res.render('referencias', {
+        pagina: 'Cartas de Referencia'
+    })
+}
+
 export {
     inicio,
     experienciaLaboral,
     formacionAcademica,
     imprimirPdf,
+    galeriaCertificados,
+    galeriaReferencias,
 }

@@ -28,26 +28,33 @@ aside(class=" space-y-4 bg-white p-5 flex flex-col items-center border-e-2 borde
                 span(class="font-normal tex-black leading-2") B1.
 
     div(class="container mx-auto flex flex-col items-center ")
-        a(href="/pdf" class="text-sm font-bold uppercase text-white bg-indigo-600 rounded py-1 px-10") Curriculum Completo
+        
         h2(class="text-3xl text-center font-bold my-5 pt-5 border-t-4 border-gray-300 w-full") Experiencia Laboral: 
         
         a(href="/laboral")
-            img(src="/img/Diaper.jpeg", alt="imagen Diaper" class="shadow mb-5")
+            img(src="/img/Diaper.jpeg", alt="imagen Diaper" class="shadow mb-5 md:w-40 md:h-40 mx-auto")
             h3(class="text-center text-xl text-indigo-600") Ver experiencias laborales
 
     div(class="container mx-auto flex flex-col items-center pt-5 border-t-4 border-gray-300 w-full")
         h2(class="text-3xl text-center font-bold my-5") Formación academica: 
         
         a(href="/estudio")
-            img(src="/img/udemy.png", alt="imagen Diaper" class="shadow mb-5")
+            img(src="/img/udemy.png", alt="imagen Udemy" class="shadow mb-5 md:w-60 md:h-40")
             h3(class="text-center text-xl text-indigo-600") Ver formación académica
 
     div(class="container mx-auto flex flex-col items-center pt-5 border-t-4 border-gray-300 w-full")
-         
-        
-        
 
-        a(href="/pdf/CurriculumDomingoCurbeira.pdf" download="CurriculumDomingoCurbeira.pdf" class="text-sm font-bold uppercase text-white bg-indigo-600 rounded py-1 px-10") Descargar Curriculum PDF
+        nav(class="flex flex-col gap-4 items-center text-center mb-5") 
+        
+            a(href="/pdf" class="text-sm font-bold uppercase text-white bg-indigo-600 rounded py-2 px-10") Ver Curriculum 
+
+            a(href="/pdf/CurriculumDomingoCurbeira.pdf" download="CurriculumDomingoCurbeira.pdf" class="text-sm font-bold uppercase text-white bg-indigo-600 rounded py-2 px-10") Descargar Curriculum PDF
+
+        nav(class="flex flex-col gap-4 items-center text-center") 
+
+            a(href="/referencias" class="text-sm font-bold uppercase text-white bg-indigo-600 rounded py-2 px-10") Ver Cartas de Referencia 
+
+            a(href="/certificados" class="text-sm font-bold uppercase text-white bg-indigo-600 rounded py-2 px-10") Ver Certificados 
 
     div(class="container mx-auto flex flex-col items-center py-5 border-y-4 border-gray-300 w-full space-y-5 ")
         h3(class="text-3xl text-center font-bold my-5") Tecnologías: 
