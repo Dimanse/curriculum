@@ -10,10 +10,10 @@ html(lang="es")
     body.min-h-screen.bg-gray-100
         include includes/header
         section(class="mx-auto flex flex-col md:flex-row")
-            div(class="md:w-2/6")
-                include ../templates/aside
             div(class="md:w-4/6")
                 include ../templates/hitos
+            div(class="md:w-2/6")
+                include ../templates/aside
         
         block contenido
         block scripts
